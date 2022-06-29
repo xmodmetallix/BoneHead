@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
     <header class="cabecera">
@@ -26,20 +27,28 @@
         <nav class="menu">
             <ul class="menu__lista">
                 <li>
-                    <a href="instrumentos.html">Instrumentos</a> <!-- Se piensa añadir un menu plegable para elegir instrumetos entre guitarras, baterias y bajos, por lo cual, 
-                    solo se añadió momentaneamente el diseño en general como de "instrumentos"-->
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle bg-transparent text-dark border-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Instrumentos
+                        </button>
+                        <ul class="dropdown-menu bck__color" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item bg-transparent" href="../pages/instrumentos.html#Guit" >Guitarras</a></li>
+                          <li><a class="dropdown-item bg-transparent" href="../pages/instrumentos.html#Bat">Baterias</a></li>
+                          <li><a class="dropdown-item bg-transparent" href="../pages/instrumentos.html#Baj">Bajos</a></li>
+                        </ul>
+                      </div>
                 </li>
                 <li>
-                    <a href="masvendidos.html">Más Vendidos</a>
+                    <a href="../pages/masvendidos.html">Más Vendidos</a>
                 </li>
                 <li>
-                    <a href="tiendas.html">Tiendas</a>
+                    <a href="../pages/tiendas.html">Tiendas</a>
                 </li>
                 <li>
-                    <a href="videos.html">Videos</a>
+                    <a href="../pages/videos.html">Videos</a>
                 </li>
                 <li>
-                    <a href="nosotros.html">Nosotros</a>
+                    <a href="../pages/nosotros.html">Nosotros</a>
                 </li>
             </ul>
         </nav>
@@ -47,7 +56,43 @@
 
     <!-- Seccion donde muestra en google maps las tiendas -->
     <main>
-        <section class="tiendas">
+            <div class="card ml-4" style="width: 40%; margin-left: 10%;  margin-bottom: 5%; margin-top: 5%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.241909089937!2d-99.02934388517082!3d19.531225186828365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f1c69bda1387%3A0x785de60eea89aafb!2sPlaza%20Aragon!5e0!3m2!1ses-419!2smx!4v1653805056525!5m2!1ses-419!2smx" ></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">Plaza Aragon</h5>
+                  <p class="card-text">Direccion: Av. Plaza del 5o. Sol, Cd Azteca 3ra Secc, 55120 Ecatepec de Morelos, Méx.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Horarios: Lunes a Sabado de 10:00 a 18:45</li>
+                  <li class="list-group-item">Telefono: 5552137742</li>
+                  <li class="list-group-item">Email: Bonehead_Aragon@gmail.com</li>
+                </ul>
+              </div>
+              <div class="card .tiendas__aragon" style="width: 40%; margin-left: 50%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8748.81320515636!2d-99.01865121757504!3d19.585797690248377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc507261cbe0c34e7!2sCentro%20Las%20Am%C3%A9ricas!5e0!3m2!1ses-419!2smx!4v1653805147917!5m2!1ses-419!2smx"></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">Las Américas</h5>
+                  <p class="card-text">Direccion: Av. Central S/N, Fraccionamiento Las Americas, Las Américas, 55075 Ecatepec de Morelos, Méx.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Horarios: Lunes a Sabado de 10:00 a 19:00</li>
+                  <li class="list-group-item">Telefono: 5552137322</li>
+                  <li class="list-group-item">Email: Bonehead_Americas@gmail.com</li>
+                </ul>
+              </div>
+              <div class="card .tiendas__aragon" style="width: 40%; margin-left: 10%;  margin-bottom: 5%; margin-top: 5%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.371530827629!2d-99.09661058517224!3d19.439541986880396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbf3a70103b5%3A0x94d3cf7496478017!2sEncuentro%20Ocean%C3%ADa!5e0!3m2!1ses-419!2smx!4v1653805190098!5m2!1ses-419!2smx"></iframe>
+                <div class="card-body">
+                  <h5 class="card-title">Encuentro Oceanía</h5>
+                  <p class="card-text">Direccion: Av. del Peñón 355, Moctezuma 2da Secc, Venustiano Carranza, 15530 Ciudad de México, CDMX</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Horarios: Lunes a Sabado de 10:00 a 18:45</li>
+                  <li class="list-group-item">Telefono: 5552112742</li>
+                  <li class="list-group-item">Email: Bonehead_Oceania@gmail.com</li>
+                </ul>
+              </div>
+<!--         <section class="tiendas">
             <h1> Encuentra nuestras tiendas</h1>
             <p class="tiendas__p1">Plaza aragon</p>
                 <div class="tiendas__aragon">
@@ -63,12 +108,8 @@
                 <div class="tiendas__oceania">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.371530827629!2d-99.09661058517224!3d19.439541986880396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbf3a70103b5%3A0x94d3cf7496478017!2sEncuentro%20Ocean%C3%ADa!5e0!3m2!1ses-419!2smx!4v1653805190098!5m2!1ses-419!2smx"></iframe>
                 </div>
-        </section>
+        </section> -->
     </main>
-
-
-
-    
 
     <footer class="pie">
         <!-- Seccion ayuda -->
@@ -101,5 +142,6 @@
             <p> <img class="pie__follow__tw" src="../Multimedia/imagenes/twt.png" alt=""> Bonehead Store</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
