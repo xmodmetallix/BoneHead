@@ -1,0 +1,47 @@
+.ofertas, .nuevos{
+    margin-bottom: 100px;
+}
+
+.destacadas{
+    background-color: rgba(201, 201, 201, 0.76);
+    padding: 35px 60px 54px;
+    margin-left: 9vw;
+    margin-right: 9vw;
+}
+
+.ofertas p{
+    font-size:x-large;
+    margin-bottom: 2%;
+    margin-left: 50%;
+}
+
+.destacadas p{
+    font-size:x-large;
+    margin-bottom: 2%;
+    margin-left: 43%;
+    display:flex;
+    flex-direction: column;
+}
+
+.nuevos p{
+    font-size:x-large;
+    margin-bottom: 2%;
+    margin-left: 45%;
+    margin-top: 100px;
+}
+
+.ofertas .fotos__ofertas img{
+    height: 400px;
+    margin-left: 8%; 
+}
+
+.destacadas .fotos__destacadas img{
+    margin-left: 10%;
+    width: 159px;
+}
+
+.fotos__nuevos img{
+    width: 100%;
+    height: auto;
+    margin-left: 13%;
+}

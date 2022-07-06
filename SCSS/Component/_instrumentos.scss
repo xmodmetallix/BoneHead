@@ -1,0 +1,126 @@
+.InstrumentosMasVendidos .InstrumentosMasVendidos__guitarras p
+{
+        font-size:x-large;
+        color: #000;
+}
+
+.instrumentos .instrumentos__guitarras p{
+    color: #000;
+    font-size:x-large;
+}
+
+.InstrumentosMasVendidos .InstrumentosMasVendidos__baterias p
+{
+    font-size:x-large;
+    color: #000;
+}
+
+.instrumentos .instrumentos__baterias p{
+    color: #000;
+    font-size:x-large;
+}
+
+.InstrumentosMasVendidos .InstrumentosMasVendidos__bajos p{
+    font-size:x-large;
+    margin-bottom: 2%;
+    color: #000;
+}
+
+.instrumentos .instrumentos__bajos p{
+    color: #000;
+    font-size:x-large;
+}
+
+.instrumentos .instrumentos__guitarras .instrumentos__guitarras__fotos img,
+.instrumentos .instrumentos__bajos .instrumentos__bajos__fotos img,
+.InstrumentosMasVendidos__guitarras__fotos img,
+.InstrumentosMasVendidos__baterias__fotos img,
+.InstrumentosMasVendidos__bajos__fotos img
+{
+    height: 400px;
+}
+
+.instrumentos .instrumentos__baterias .instrumentos__baterias__fotos img{
+    height: 500px;
+}
+
+/* Aplicando Grids*/
+
+.instrumentos__guitarras{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 1fr 1fr  1fr;
+/*     margin-bottom: 100px; */
+    justify-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.instrumentos__guitarras__fotos:first-child{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.instrumentos__baterias{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 1fr 1fr  1fr;
+    justify-items: center;
+}
+
+.instrumentos__baterias__fotos:first-child{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.instrumentos__bajos{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 1fr 1fr  1fr;
+/*     margin-bottom: 100px; */
+    justify-items: center;
+}
+
+.instrumentos__bajos__fotos:first-child{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.InstrumentosMasVendidos__guitarras{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 1fr 1fr  1fr;
+/*     margin-bottom: 100px; */
+    justify-items: center;
+}
+
+.InstrumentosMasVendidos__guitarras__fotos:first-child{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.InstrumentosMasVendidos__baterias{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 1fr 1fr  1fr;
+/*     margin-bottom: 100px; */
+    justify-items: center;
+}
+
+.InstrumentosMasVendidos__baterias__fotos:first-child{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.InstrumentosMasVendidos__bajos{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 1fr 1fr  1fr;
+/*     margin-bottom: 100px; */
+    justify-items: center;
+}
+
+.InstrumentosMasVendidos__bajos__fotos:first-child{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}

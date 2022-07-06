@@ -1,0 +1,35 @@
+.nosotros__galeria h1{
+    color: #000;
+    margin-left: 46.5%;
+    margin-bottom: 50px;
+}
+
+.galeria__card1 img,
+.galeria__card2 img,
+.galeria__card3 img{
+    width: 35%;
+    margin-bottom: 3%;
+}
+
+.galeria__card1 h2,
+.galeria__card2 h2,
+.galeria__card3 h2{
+    color: #000;
+    display: inline-block;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 3%;
+    z-index: -1;
+}
+
+.galeria__card1 p,
+.galeria__card2 p,
+.galeria__card3 p{
+    color: #000;
+    display: inline-block;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 3%;
+    margin-right: 4%;
+    z-index: -1;
+}

@@ -1,0 +1,31 @@
+/*
+colores: 
+Negro #000000
+Azul: #9BF6F1
+Rojo: #FF5C5C
+Blanco: #FFFFFF
+
+fuentes: 
+font-family: 'Carter One', cursive;
+font-family: 'PT Sans', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=PT+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+@import '../SCSS/Component/header';
+@import '../SCSS/Component/footer';
+@import '../SCSS/Component/index';
+@import '../SCSS/Component/cuenta';
+@import '../SCSS/Component/instrumentos';
+@import '../SCSS/Component/medias';
+@import '../SCSS/Component/nosotros';
+@import '../SCSS/Component/tiendas';
+@import '../SCSS/Component/videos';
+@import '../SCSS/Component/animaciones';

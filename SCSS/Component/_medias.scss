@@ -1,0 +1,502 @@
+@media only screen and (max-width: 480px){
+
+    .cabecera{
+        /* background-image: url(../Multimedia/imagenes/backg.jpg); */
+        background-color: rgb(27, 27, 27);
+        display: block;
+        position: sticky;
+        top: 0;
+        margin-bottom: 50px;
+    } 
+    
+    body{
+        background-color: #ffffff; 
+    }
+    
+    .logo{
+        width: 70%;
+        margin: 0;
+        padding-left: 30%;
+        padding-bottom: 0;
+        padding-top: 1%;
+        display: block;
+    }
+    
+    .main__index .ofertas p, .main__index .destacadas p, .main__index .nuevos p{
+        color: #000;
+    }
+    
+    .search{
+        width: 50%;
+        padding: .2%;
+        margin-top: 4%;
+        margin-left: 25%;
+        display: block;
+        position:relative;
+        color: #000;
+    }
+    
+    .car{
+        width: 6%;
+        filter: invert(100%) sepia(0%) saturate(7486%) hue-rotate(263deg) brightness(104%) contrast(98%);
+        margin: 3%;
+        display: inline-block;
+        position:relative;
+        margin-left: 55%;
+    }
+    
+    .login{
+        font-size: 100%;
+        margin-left: 7%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: inline-block;
+    }
+    
+    .menu li{
+        padding: 0.2% 5%;
+        font-size: large;
+        display: inline-block;
+    }
+    
+    .menu{
+        text-align: center;
+        background-color: rgb(255, 255, 0);
+    }
+    
+    .menu .menu__lista a{
+        color: #000;
+        font-size: large;
+    }
+
+    .ofertas, .nuevos{
+        margin-bottom: 100px;
+    }
+    
+    .destacadas{
+        background-color: rgba(201, 201, 201, 0.76);
+        padding: 35px 60px 54px;
+        margin-left: 9vw;
+        margin-right: 9vw;
+    }
+    
+    .ofertas p{
+        font-size:x-large;
+        margin-bottom: 3%;
+        margin-left: 45%;
+    }
+    
+    .destacadas p{
+        font-size:x-large;
+        margin-bottom: 8%;
+        margin-left: 17%;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .nuevos p{
+        font-size:x-large;
+        margin-bottom: 2%;
+        margin-left: 33%;
+        margin-top: 100px;
+    }
+    
+    .ofertas .fotos__ofertas img{
+        height: 300px;
+        margin-left: 25%; 
+        margin-bottom: 3%;
+    }
+    
+    .destacadas .fotos__destacadas img{
+        margin-left: 23%;
+        width: 159px;
+/*         margin-bottom: 3%; */
+    }
+    
+    .nuevos .fotos__nuevos img{
+        height: 300px;
+        margin-left: 12.5%; 
+        margin-bottom: 3%;
+    }
+
+    
+    .pie{
+        display: inline-block;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #014a58;
+    }
+    
+    .pie__help{ 
+        margin: 4% 10%; 
+    }
+    
+    .pie__help__p1{
+        text-align: center;
+    }
+    
+    .pie__help__map, .pie__help__cel, .pie__help__mail{
+        width: 5%;
+        filter: invert(100%) sepia(0%) saturate(7486%) hue-rotate(263deg) brightness(104%) contrast(98%);
+    }
+    
+    .pie__newsletter{
+    /*     margin: 2% 10%; */
+        margin: 2% 10%;
+        display: inline-block;
+        width: 384px;
+        height: 92.800;
+    }
+    
+    .pie__newsletter__p1{
+        text-align: center;
+        display: inline-block;
+        margin-left: 35%;
+    }
+
+    .pie__newsletter__p2{
+        text-align: center;
+        display: inline-block;
+    }
+    
+    .pie__newsletter_news{
+        width: 75%;
+        margin-left: 15%;
+        display: block;
+        color: #000;
+    }
+    
+    .pie__follow{
+        margin: 4% 10%;
+    }
+    
+    .pie__follow__tw, .pie__follow__fb, .pie__follow__ig{
+        width: 5%;
+        filter: invert(100%) sepia(0%) saturate(7486%) hue-rotate(263deg) brightness(104%) contrast(98%);
+    }
+    
+    .pie__follow__p1{
+        text-align: center;
+    }
+
+    
+    .instrumentos .instrumentos__guitarras p,
+    .InstrumentosMasVendidos .InstrumentosMasVendidos__guitarras p
+    {
+        font-size:x-large;
+        color: #000;
+    }
+
+    .instrumentos .instrumentos__baterias p,
+    .InstrumentosMasVendidos .InstrumentosMasVendidos__baterias p
+    {
+        font-size:x-large;
+        color: #000;
+    }
+
+    .instrumentos .instrumentos__bajos p,
+    .InstrumentosMasVendidos .InstrumentosMasVendidos__bajos p{
+        font-size:x-large;
+        color: #000;
+    }
+
+    .instrumentos .instrumentos__guitarras .instrumentos__guitarras__fotos img,
+    .instrumentos .instrumentos__bajos .instrumentos__bajos__fotos img,
+    .instrumentos .instrumentos__baterias .instrumentos__baterias__fotos img,
+    .InstrumentosMasVendidos__guitarras__fotos img,
+    .InstrumentosMasVendidos__baterias__fotos img,
+    .InstrumentosMasVendidos__bajos__fotos img
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    
+    .InicioSesion .InicioSesion__p{
+        color: #000;
+        font-size:x-large;
+        margin-left: 40%;
+        margin-bottom: 6%;
+        margin-top: 0;
+    }
+
+    .InicioSesion .InicioSesion__correo p{
+        color: #000;
+        font-size: large;
+        margin-left: 25%;
+        margin-bottom: 1%;
+    }
+
+
+    .InicioSesion__mail{
+        width: 50%;
+        padding: .2%;
+        margin-left: 25%;
+        color: #000;
+    }
+
+    .InicioSesion .InicioSesion__contraseña p{
+       color: #000;
+        font-size: large;
+        margin-left: 25%;
+        margin-bottom: 1%;
+        margin-top: 1.5%;
+    }
+
+    .InicioSesion__pass{
+        width: 50%;
+        padding: .2%;
+        margin-left: 25%;
+        color: #000;
+        margin-bottom: 4%;
+    }
+
+    .InicioSesion__opciones a{
+        color: #000;
+        display: block;
+        font-size: medium;
+    }
+
+    .InicioSesion__opciones .InicioSesion__opciones__iniciar{
+        margin: 4% 46% 3% 40%;
+        font-size:medium;
+        background-color: rgb(255, 255, 0);
+        height: 30px;
+        width: 100px;
+        padding: 1%; 
+    }
+
+    .InicioSesion__opciones .InicioSesion__opciones__olvido{
+        margin-top: 3%;
+        margin-left: 33.5%;
+        margin-bottom: 3%;
+        font-size: medium;
+        text-decoration:underline;
+    }
+
+    .InicioSesion__opciones .InicioSesion__opciones__crear{
+        margin: 3% 46% 10% 40%;
+        font-size: medium;
+        background-color: rgb(0, 0, 0);
+        height: 30px;
+        width: 100px;
+        padding: 1%;
+        color: #ffffff; 
+    }
+
+    .OlvidoPass h1{
+        color: #000;
+        margin-left: 27.5%;
+        margin-bottom: 10px;
+        font-size: x-large;
+    }
+
+    .OlvidoPass__p1{
+        color: #000;
+        font-size: medium;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 30px;
+    }
+
+    .OlvidoPass__p2{
+        color: #000;
+        font-size: medium;
+        margin-left: 27%;
+    }
+
+    .OlvidoPass__mail{
+        width: 45%;
+        height: 25px;
+        padding: .2%;
+        margin-left: 27%;
+        color: #000;
+    }
+
+    .OlvidoPass a{
+        text-decoration: none;
+        color: #000;
+        display: block;
+        font-size: medium;
+    }   
+
+    .OlvidoPass__enviar{
+        margin: 8% 46% 8% 45%;
+        font-size:medium;
+        background-color: rgb(255, 255, 0);
+        height: 30px;
+        width: 50px;
+        padding: 1%; 
+    }
+
+    .CrearCuenta h1{
+        color: #000;
+        margin-left: 40%;
+        margin-bottom: 25px;
+        font-size: x-large;
+    }
+
+    .CrearCuenta__p1, .CrearCuenta__p2,
+    .CrearCuenta__p3, .CrearCuenta__p4{
+        color: #000;
+        font-size: medium;
+        margin-left: 27%;
+        margin-bottom: 5px;
+    }
+
+    .CrearCuenta__nombre, .CrearCuenta__apellido,
+    .CrearCuenta__mail, .CrearCuenta__pass{
+        width: 45%;
+        height: 25px;
+        padding: .2%;
+        margin-left: 27%;
+        color: #000;
+        margin-bottom: 30px;
+    }
+
+    .CrearCuenta a{
+        color: #000;
+        display: block;
+        font-size: medium;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .CrearCuenta__crear{
+        margin: 4% 46% 10% 45%;
+        font-size:medium;
+        background-color: rgb(255, 255, 0);
+        height: 35px;
+        width: 55px;
+        padding: 1%; 
+    }
+
+    
+    .tiendas h1{
+        color: #000;
+        margin-left: 25%;
+        margin-bottom: 50px;
+        font-size: x-large;
+    }
+
+    .tiendas__p1, 
+    .tiendas__p2,
+    .tiendas__p3{
+        color: #000;
+        font-size: large;
+        margin-left: 100px;
+        margin-bottom: 15px;
+    }
+
+    .tiendas__aragon iframe, 
+    .tiendas__americas iframe,
+    .tiendas__oceania iframe{
+        display: inline-block;
+        width: auto;
+        height: auto;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+
+    .videos__vid1 iframe,
+    .videos__vid2 iframe,
+    .videos__vid3 iframe{
+        display: inline-block;
+        width: auto;
+        height: auto;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+
+    .videos h1{
+        color: #000;
+        margin-left: 5%;
+        margin-bottom: 50px;
+        font-size: x-large;
+    }
+
+    .nosotros__galeria h1{
+        color: #000;
+        margin-left: 43%;
+        margin-bottom: 10px;
+        font-size: x-large;
+    }
+    
+    .galeria__card1 img,
+    .galeria__card2 img,
+    .galeria__card3 img{
+        width: 45%;
+        margin-bottom: 3%;
+    }
+    
+    .galeria__card1 h2,
+    .galeria__card2 h2,
+    .galeria__card3 h2{
+        color: #000;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-top: 3%;
+        z-index: -1;
+        font-size: medium;
+    }
+    
+    .galeria__card1 p,
+    .galeria__card2 p,
+    .galeria__card3 p{
+        color: #000;
+        margin-top: 15%;
+        margin-left: 3%;
+        margin-right: 4%;
+        z-index: -1;
+        font-size: small;
+    }
+
+    .animacion__ofertas{
+        margin-top: 100px;
+        margin-left: 1%;
+        margin-right: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vh;
+    }
+    
+    .card__ofertas{
+        width: auto;
+        max-width: 350px;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    
+    .card__ofertas:hover{
+        height: 600px;
+    }
+    
+    .card__ofertas .content__ofertas{
+        width: 100%;
+        left: 0;
+        padding: 20px;
+    }
+    
+    .card__ofertas img{
+        top: 70%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .videos__car__item{
+        margin-left: 27%;
+        margin-bottom: 10%;
+    }
+    
+    .videos__car__item iframe{
+        width: auto;
+        height: auto;
+    }
+}
