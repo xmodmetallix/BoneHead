@@ -1,0 +1,9 @@
+@mixin tiendas ($MLeft, $MBottom, $W, $H, $Borde){
+    margin-left: $MLeft;
+    margin-bottom: $MBottom;
+    width: $W;
+    height: $H;
+    border: $Borde;
+}
+
+

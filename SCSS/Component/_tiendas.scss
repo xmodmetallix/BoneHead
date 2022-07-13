@@ -1,3 +1,5 @@
+@import '../base/_mixins.scss';
+
 .tiendas h1{
     color: #000;
     margin-left: 45%;
@@ -19,11 +21,7 @@
 }
 
 .tiendas__aragon iframe{
-    margin-left: 7%;
-    margin-bottom: 50px;
-    width: 40vw; 
-    height: 65vh;
-    border: 0; 
+    @include tiendas(7%, 50px, 40vw, 65vh, 0)
 }
 
 .card-body p, .card-body  h5{
@@ -31,19 +29,11 @@
 }
 
 .tiendas__americas iframe{
-    margin-left: 54%;
-    margin-bottom: 50px;
-    width: 40vw; 
-    height: 65vh;
-    border: 0; 
+    @include tiendas(54%, 50px, 40vw, 65vh, 0)
 }
 
 .tiendas__oceania iframe{
-    margin-left: 7%;
-    margin-bottom: 50px;
-    width: 40vw; 
-    height: 65vh;
-    border: 0; 
+    @include tiendas(7%, 50px, 40vw, 65vh, 0)
 }
 
 .tiendas__aragon{

@@ -19,6 +19,9 @@ font-family: 'PT Sans', sans-serif;
     font-family: 'PT Sans', sans-serif;
 }
 
+@import '../SCSS/base/extends';
+@import '../SCSS/base/mapas';
+@import '../SCSS/base/mixins';
 @import '../SCSS/Component/header';
 @import '../SCSS/Component/footer';
 @import '../SCSS/Component/index';
